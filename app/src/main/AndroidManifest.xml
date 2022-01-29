@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pakarnila">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pakarnila"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".tentangpakar"
+            android:exported="false" />
+        <activity
+            android:name=".SolusiMysql"
+            android:exported="false" />
+        <activity
+            android:name=".PakarMysql"
+            android:exported="false" />
+        <activity
+            android:name=".lernea"
+            android:exported="false" />
+        <activity
+            android:name=".bintikputih"
+            android:exported="false" />
+        <activity
+            android:name=".bercakmerah"
+            android:exported="false" />
+        <activity
+            android:name=".epistyles"
+            android:exported="false" />
+        <activity
+            android:name=".saprolegniasis"
+            android:exported="false" />
+        <activity
+            android:name=".trichodina"
+            android:exported="false" />
+        <activity
+            android:name=".daftarpenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".tentangjeje"
+            android:exported="false" />
+        <activity
+            android:name=".tentanglisa"
+            android:exported="false" />
+        <activity
+            android:name=".tentangfitri"
+            android:exported="false" />
+        <activity
+            android:name=".tentangnael"
+            android:exported="false" />
+        <activity
+            android:name=".tentanghabibi"
+            android:exported="false" />
+        <activity
+            android:name=".tentangkami"
+            android:exported="false" />
+        <activity
+            android:name=".loading"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
